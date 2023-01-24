@@ -1,0 +1,15 @@
+  Enumero los inconvenientes que se van planteando y voy resolviendo.
+
+1)  Al crear el proyecto maven VSC indica dos errores, relacionados con la versión
+de JVM en uso; en el archivo pom.xml busco esta sección:
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>19</maven.compiler.source>
+    <maven.compiler.target>19</maven.compiler.target>  //Cambio los números por 19, que es la versión de Java instalada.
+  </properties>
+
+2)  Hasta el momento no logro hacer que la página use el css ; para corregirlo, incluí la etiqueta 
+<style></style> en el head.jsp.
+
+3)  Logré visualizar el proyecto en el navegador. El problema es que tengo que resolver el tema de la codificación (UTF8).
