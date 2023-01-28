@@ -1,0 +1,14 @@
+  Este es un desarrollo personal, pensado a partir del trabajo práctico final
+planteado en el curso "Full stack Java".
+
+  Desde un formulario de acceso pueden ingresar tanto administradores como usuarios;
+los administradores son redirigidos a un panel de control donde pueden agregar usuarios 
+a la base de datos insertando usuario y contraseña, eliminar usuarios o corregir datos de los mismos.
+  Además, pueden agregar administradores.
+  Los usuarios son redirigidos hacia una página común.
+  Usuarios y administradores están contenidos ewn la misma base de datos, diferenciados por
+categorías (categoría 1 administradores y categoría 2 usuarios).
+  Cuando un usuario se registra su categoría se indica automáticamente en 2 debido a que ese dato 
+no se ingresa en el registro. Sólo los administradores pueden agregar categoría.
+  Si un usuario común ingresa porque un administrador agregó sus datos para poder acceder,
+inmediatamente deberá completar los datos que faltan en el registro.
